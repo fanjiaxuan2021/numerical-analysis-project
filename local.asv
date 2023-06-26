@@ -1,0 +1,10 @@
+function P=local(a,b,phil,phir,gl,gr,k)
+P=zeros(k,k);
+pl=eva(phil,a,b,k);
+pr=eva(phir,a,b,k);
+gl=
+for i=1:k
+    for j=1:k
+        P(i,j)=phil(z(j))*ir(i,j)*gl(tau)
+end
+
